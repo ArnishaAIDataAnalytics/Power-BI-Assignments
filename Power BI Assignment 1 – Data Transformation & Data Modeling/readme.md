@@ -51,6 +51,4 @@ By completing this assignment, you will be able to:
 
 - PBIX file with all three tables imported and transformed
 - Screenshots of Power Query steps
-- Documentation of all transformations applied
-- Custom columns created for `Location` and `Profit Margin`
 
