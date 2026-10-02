@@ -34,11 +34,14 @@ Merge State and City columns to create a new column Location in the format:
 
 Code
 City, State
+
 Create a new custom column Profit Margin as:
 
 Code
 Profit Margin = (Profit / Amount) * 100
+
 🎯 Learning Outcomes
+
 By completing this assignment, you will:
 
 Understand how to import and clean data in Power BI.
