@@ -1,91 +1,92 @@
-Power BI Assignments 📊
-A repository containing my Power BI assignments from the AI Driven Data Analytics course. This repo documents my progression from Excel into Power BI, showing data cleaning, modeling, DAX, and interactive reporting work — a record of learning and deliverables.
+# Power BI Assignments 📊
 
-Overview
-Purpose  
-This repository stores end‑to‑end Power BI work: raw data, Power Query transformations, aggregated queries, DAX measures, PBIX files, and screenshots that demonstrate the steps and results for each assignment.
+A repository of my Power BI assignments from the AI-Driven Data Analytics course. This project documents my journey from Excel into Power BI, covering data cleaning, modeling, DAX, and interactive reporting work.
 
-Audience  
-Instructors, graders, collaborators, and future-you who want reproducible steps, explanations, and deliverables.
+## Overview
 
-Contents
-Power BI Desktop files (PBIX) with finished dashboards and reports
+This repository contains end-to-end Power BI work, including raw data, Power Query transformations, aggregated queries, DAX measures, PBIX files, and screenshots that demonstrate the process and results for each assignment.
 
-Raw data CSVs used for each assignment
+### Purpose
+The main goal of this repo is to capture practical learning and deliverables in Power BI, with a focus on:
 
-Power Query M snippets and step descriptions
+- Data preparation and transformation
+- Data modeling and relationship design
+- DAX calculations and business metrics
+- Dashboard design and reporting
+- Reproducibility and documentation
 
-DAX measures catalog with explanations and usage examples
+### Audience
+This repository is intended for:
 
-Screenshots of Power Query steps, Model view, and key visuals
+- Instructors and graders
+- Collaborators
+- Future self-reference
+- Anyone reviewing the progression of analytics work
 
-Documentation including README, measures.md, and step‑by‑step notes
+## Contents
 
-Learning Goals
-Master Power Query for data cleaning and transformation
+Each assignment may include:
 
-Build robust data models with correct relationships and cardinality
+- Power BI Desktop files (`.pbix`)
+- Raw CSV datasets
+- Power Query M scripts and transformation steps
+- DAX measures and formula explanations
+- Screenshots of key visuals and model design
+- Documentation notes and assignment summaries
 
-Write DAX measures for dynamic, filter‑aware calculations
+## Learning Goals
 
-Design interactive dashboards with clear visuals and KPIs
+This portfolio aims to build skills in:
 
-Validate and document results for reproducibility and grading
+- Power Query for data cleaning and transformation
+- Data modeling with proper relationships and cardinality
+- Writing DAX measures for filter-aware calculations
+- Designing dashboards with clear KPIs and visuals
+- Validating results and documenting analysis steps
 
-What you will find per assignment
-Problem statement and expected deliverables
+## What You Will Find in Each Assignment
 
-Raw dataset used for the task (in data/)
+- Problem statement and expected deliverables
+- Raw datasets used for the task
+- Power Query steps with M code snippets
+- Aggregated tables created via Group By or DAX
+- DAX measures used in visuals
+- Final PBIX files and screenshots
+- Validation notes with sample checks and totals
 
-Power Query steps (in powerquery/) with M code snippets
+## Quick Start
 
-Aggregated tables created by Group By or DAX (if required)
+1. Clone this repository to your machine.
+2. Open the relevant PBIX file in the assignment folder.
+3. If needed, recreate the steps using the provided Power Query M snippets.
+4. Update data source paths if files were moved.
+5. Review the DAX formulas and model structure for analysis logic.
 
-DAX measures used in visuals (in measures.md)
+## Recommended Folder Structure
 
-Final PBIX file (in pbix/) and screenshots (in screenshots/)
+| Path | Purpose |
+| --- | --- |
+| `data/` | Raw CSV files used for assignments |
+| `powerquery/` | M code snippets and exported query steps |
+| `pbix/` | Final Power BI Desktop files |
+| `screenshots/` | Screenshots of Power Query, model view, and visuals |
+| `docs/` | Assignment writeups and supporting documentation |
+| `measures.md` | Catalog of DAX measures with descriptions |
 
-Validation notes showing sample checks and totals
+## Best Practices and Notes
 
-Quick Start
-Clone the repo to your machine.
+- Keep raw data unchanged in `data/`; create derived queries and aggregated tables separately.
+- Use a Date table for time intelligence and consistent time filtering.
+- Store ratios as decimals (for example, `Profit Margin = 0.12`) and format them as percentages in the model.
+- Prefer `DIVIDE()` in DAX to avoid divide-by-zero errors.
+- Validate aggregates by checking totals against raw data.
+- Document assumptions such as null handling, rounding, and aggregation rules.
 
-Open the PBIX file in pbix/ or recreate steps using M snippets in powerquery/.
+## Next Steps
 
-Place CSVs from data/ into a local folder and update data source paths if needed.
+As the learning journey continues, the plan is to add:
 
-Refresh data: Home → Transform data → Data source settings to update file paths.
+- More dashboards with advanced visuals and bookmarks
+- Scenario analysis and what-if parameters using DAX
+- Cross-tool work involving MySQL and Python for data prep and advanced analytics
 
-Use measures.md to review or add DAX measures to the model.
-
-Recommended Folder Structure
-Path	Purpose
-data/	Raw CSV files used for assignments
-powerquery/	M code snippets and exported query steps
-pbix/	Final Power BI Desktop files
-screenshots/	Power Query, Model view, and visual screenshots
-docs/	Assignment writeups, instructions, and this README
-measures.md	Catalog of DAX measures with descriptions
-
-
-Best Practices and Notes
-Keep raw data unchanged in data/; add derived queries and aggregated tables in powerquery/.
-
-Use a Date table for time intelligence and consistent time filtering.
-
-Store ratios as decimals (e.g., Profit Margin = 0.12) and format as Percentage in the model.
-
-Use DIVIDE() in DAX to avoid divide‑by‑zero errors.
-
-Validate aggregates by spot‑checking sums against raw CSV totals.
-
-Document assumptions (null handling, rounding, aggregation rules) in each assignment folder.
-
-Next Steps
-As I continue the course I will add:
-
-More Power BI dashboards with advanced visuals and bookmarks
-
-Scenario analyses and what‑if parameters using DAX
-
-Cross‑tool work: MySQL queries and Python notebooks for data prep and advanced analytics

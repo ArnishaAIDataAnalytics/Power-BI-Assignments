@@ -1,62 +1,56 @@
-📊 Power BI Assignment 1 – Data Transformation & Data Modeling
-
-E-Commerce Sales Analysis
-This assignment explores e-commerce sales data analysis using Power BI. You will import, transform, model, and analyze the provided datasets to gain insights into sales performance.
-
-📂 Dataset Files
-
-List of Orders.csv
-
-Order Details.csv
-
+Power BI Assignment 1 – Data Transformation & Data Modeling
 Sales Target.csv
 
-🛠️ Instructions
-1. Import Data
-Import List of Orders.csv into Power BI.
+E-Commerce Sales Analysis
 
-Open List of Orders in Power Query Editor by clicking on Transform.
+This assignment focuses on e-commerce sales analysis using Power BI. You will import, transform, model, and analyze the provided datasets to generate insights into sales performance and business trends.
 
-Import Order Details.csv and Sales Target.csv into Power Query Editor.
+Dataset Files
 
-2. Data Transformation
-Perform the following transformations in Power Query Editor:
+List of Orders.csv
+Order Details.csv
 
-Restrict List of Orders table to the first 500 rows.
+## Instructions
 
-Set Order Date column to Date data type.
+### 1. Import Data
 
-Change Amount and Target columns to Fixed Decimal Number.
+- Import `List of Orders.csv` into Power BI.
+- Open `List of Orders` in the Power Query Editor by selecting **Transform Data**.
+- Import `Order Details.csv` and `Sales Target.csv` into the Power Query Editor as well.
 
-Format CustomerName column into Proper Case (capitalize each word).
+### 2. Data Transformation
 
-Merge State and City columns to create a new column Location in the format:
+Apply the following transformations in Power Query Editor:
 
-Code
+- Restrict the `List of Orders` table to the first 500 rows.
+- Set the `Order Date` column to the **Date** data type.
+- Change `Amount` and `Target` columns to **Fixed Decimal Number**.
+- Format the `CustomerName` column to **Proper Case** so each word is capitalized.
+- Merge the `State` and `City` columns into a new `Location` column in the following format:
+
+```text
 City, State
+```
 
-Create a new custom column Profit Margin as:
+- Create a custom column named `Profit Margin` using:
 
-Code
-Profit Margin = (Profit / Amount) * 100
+```text
+(Profit / Amount) * 100
+```
 
-🎯 Learning Outcomes
+## Learning Outcomes
 
-By completing this assignment, you will:
+By completing this assignment, you will be able to:
 
-Understand how to import and clean data in Power BI.
+- Import and clean data in Power BI
+- Apply data type conversions and formatting consistently
+- Perform column transformations and create calculated fields
+- Prepare clean data for modeling and visualization
 
-Apply data type conversions and formatting for consistency.
+## Submission Checklist
 
-Perform column transformations and create calculated fields.
+- PBIX file with all three tables imported and transformed
+- Screenshots of Power Query steps
+- Documentation of all transformations applied
+- Custom columns created for `Location` and `Profit Margin`
 
-Prepare a dataset ready for data modeling and visualization.
-
-✅ Submission Checklist
-PBIX file with all three tables imported and transformed.
-
-Screenshots of Power Query steps.
-
-Documentation of transformations applied.
-
-Custom column creation for Location and Profit Margin.
