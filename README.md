@@ -89,8 +89,3 @@ More Power BI dashboards with advanced visuals and bookmarks
 Scenario analyses and what‑if parameters using DAX
 
 Cross‑tool work: MySQL queries and Python notebooks for data prep and advanced analytics
-
-Contact and Contribution
-Contributions welcome via issues or pull requests. Please include sample data and a clear description of changes.
-License: add a LICENSE file (recommended MIT) if you want public reuse.
-Maintainer: add your name and contact details in docs/ for graders or collaborators.
