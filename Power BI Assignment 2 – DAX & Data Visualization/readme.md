@@ -54,9 +54,8 @@ Create the following visuals in Power BI:
 
 Before submitting the assignment, make sure you have completed the following:
 
-- All required calculated columns created in the `Order Details` table.
+- All required calculated columns created.
 - All required DAX measures created and validated.
 - Data model relationships established correctly.
 - All required charts and visuals created in Power BI.
 - Visuals formatted and customized for clarity and presentation.
-- Final dashboard ready for review and analysis.
