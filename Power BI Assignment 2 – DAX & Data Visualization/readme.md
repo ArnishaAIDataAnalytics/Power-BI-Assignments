@@ -26,6 +26,16 @@ In this exercise, you will use DAX (Data Analysis Expressions) to analyze and tr
 - Calculate Average Profit in Delhi: Create a measure to calculate the average profit for orders placed in Delhi.
 - Calculate Year-to-Date (YTD) Sales: Define a measure to calculate the total sales amount accumulated from the earliest order date up to each order date.
 
+## Learning Outcomes
+
+By completing this assignment, you will be able to:
+
+- Create and apply DAX calculated columns for business logic.
+- Build effective DAX measures to calculate sales, profit, and trend-based KPIs.
+- Model data correctly before creating visualizations.
+- Compare actual performance against target values using Power BI visuals.
+- Design and format dashboards that communicate insights clearly.
+
 ## Data Visualization
 
 Create the following visuals in Power BI:
@@ -39,3 +49,14 @@ Create the following visuals in Power BI:
 - `Geographic Sales Analysis`: Visualize total sales on a map by city to identify regional sales patterns.
 - `Sales Distribution by Sub-Category`: Represent the sales distribution across different sub-categories using a treemap.
 - `Order Count Analysis by State`: Create a funnel chart to visualize the distribution of order counts across different states.
+
+## Submission Checklist
+
+Before submitting the assignment, make sure you have completed the following:
+
+- All required calculated columns created in the `Order Details` table.
+- All required DAX measures created and validated.
+- Data model relationships established correctly.
+- All required charts and visuals created in Power BI.
+- Visuals formatted and customized for clarity and presentation.
+- Final dashboard ready for review and analysis.
